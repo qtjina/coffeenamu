@@ -1,0 +1,236 @@
+/* style.css */
+/*
+   page width: 1200px
+   main color: #35302d
+   sub color: #bf2428
+*/
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+a{
+   color: #35302d;
+   text-decoration: none;
+}
+li{ list-style-type: none;}
+.clear{ clear: both;}
+/*
+.line{
+   width: 80px;
+   height: 3px;
+   background: #bf2428;
+   display: block;
+   margin: 20px auto;
+   margin-bottom: 50px;
+}
+*/
+body{
+   font-family: 'Nanum Gothic', sans-serif;
+    margin: 0 auto;
+    min-width: 1200px;
+    max-width: 1920px;
+   font-size: 13px;
+/*   line-height: 20px;*/
+   color: #666;
+/*    background: #fff;*/
+}
+#login{
+    width: 200px;
+    position: relative;
+    left: 1360px;
+/*    z-index: 9999;*/
+/*    margin-top: -15px;*/
+    font-weight: bold;
+    
+}
+#login > li{
+    display: inline;
+    color: #fff;
+}
+#login > li > a{
+    color: #fff;
+}
+#login > li > a:hover{
+    color: #ccc;
+}
+
+
+#main_header{
+    min-width: 1200px;
+    max-width: 1920px;
+   width: 100%;
+   background: #323035;
+   margin: 0 auto;
+   text-align: center;
+}
+#first_h{
+    height: 130px;
+}
+
+#main_gnb{
+    position: relative;
+    margin: 0 auto;
+    width: 1200px;
+/*   border: 1px solid #999;*/
+    letter-spacing: -0.8px;
+}
+
+#main_gnb > .depth1{
+    position: absolute;
+/*    left: 20%;*/
+    z-index: 9999;
+    min-width: 1200px;
+    max-width: 1920px;
+    margin: 0 auto;
+/*    margin-top: 30px;*/
+}
+/* 1단계 메뉴 */
+#main_gnb > .depth1 > li{
+   float: left;
+   width: 20%;
+/*   height: 1000px;*/
+    border: 1px solid #fff;
+    background: rgba(180, 180, 180, 0.23);
+}
+#main_gnb > .depth1 > li > a{
+   display: block;
+   padding: 10px 0px;
+   font-size: 1.2em;
+   font-weight: bold;
+   height: 40px;
+    vertical-align: middle;
+}
+ .nav_logo{
+    padding-top: 10px;
+    
+}
+#main_gnb > .depth1 > li > a:hover{
+    border-top: 3px solid #a3cc45;
+}
+
+/* 2단계 메뉴 */
+#main_gnb .depth2{
+/*    padding-top: 20px;*/
+   width: 100%;
+   background: rgba(255, 255, 255, 0.9);
+   height: 180px;
+}
+#main_gnb .depth2 > li > a{
+   display: block;
+   padding: 10px 0;
+   font-weight: bold;
+}
+
+#main_gnb .depth2 > li > a:hover{
+   color: #fff;
+    background: #a3cc45;
+}
+
+/* 메인 배너 */
+#main_banner{
+   min-width: 1200px;
+    max-width: 1920px;
+   margin: 0 auto;
+    align-content: center;
+   overflow: hidden;
+   margin-bottom: 50px;
+    background-image: url(images);
+        
+}
+
+
+
+
+/* div content 영역*/
+
+/*******main content********/
+#iconmenu{
+    width: 1200px;
+}
+#iconmenu h1{
+    margin: 0 auto;
+    border-bottom: 5px solid #a3cc45;
+   width: 600px;
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+#iconmenu >  a, #iconmenu > img{
+    margin-right: 30px;
+}
+#iconmenu img{
+    margin: 60px 0px;
+    width: 240px;
+}
+#iconmenu >  a:last-child{
+    margin-right: 0px;
+}
+#content , #content1 , #content2 , #content3 , #content4{
+    margin: 0 auto;
+    width: 1200px;
+    text-align-last: center;
+}
+#menu-container h1 , h2{
+    text-align: center;
+    padding-bottom: 10px;
+}
+#menu-container h1{
+    font-size: 35px;
+}
+#menu-container h2{
+    border-bottom: 5px solid #a3cc45;
+    margin-bottom: 30px;
+}
+#iconmenu ul > li{
+    border-top: 3px solid #a3cc45;
+}
+
+/********sub공통**********/
+
+
+
+
+/* footer */
+#main_footer{
+    position: absolute;
+    background: #323035;
+    text-align: center;
+    max-width: 1920px;
+    min-width: 1200px;
+    width: 100%;
+    height: 170px;
+    color: #fff;
+    padding-top: 50px;
+    display: inline;
+    
+}
+#main_footer > #footer_ul{
+    width: 100%;
+}
+#main_footer > #footer_ul > li{
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 40px;
+    vertical-align: middle;
+}
+
+#main_footer > #footer_ul > li > p > span{
+    font-size: 1.3em;
+}
+#main_footer > #footer_ul > li:first-child{
+    margin-left: 0;
+}
+#main_footer > #footer_ul > li > .sns_logo{
+    padding-top: 10px;
+    width: 30px;
+    margin-right: 15px;
+}
+#main_footer > #footer_ul > li > .sns_logo:last-child{
+    margin-right: 0px;
+}
+
+
+.bx-wrapper, .bx-viewport{
+   border: none!important;
+}
